@@ -116,7 +116,7 @@ BOARD_SUPPRESS_EMMC_WIPE := true
 BOARD_RECOVERY_SWIPE := true
 
 # TWRP flags
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/twrp.fstab
+TARGET_RECOVERY_FSTAB := ../../../device/samsung/u8500-common/recovery/twrp.fstab
 DEVICE_RESOLUTION := 480x800
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 #RECOVERY_SDCARD_ON_DATA := true
@@ -135,7 +135,7 @@ TW_CRYPTO_FS_OPTIONS := "noatime,nosuid,nodev,discard,noauto_da_alloc,journal_as
 TW_CRYPTO_FS_FLAGS := "0x00000406"
 TW_CRYPTO_KEY_LOC := "/efs/metadata"
 TW_INCLUDE_FUSE_EXFAT := true
-TW_BOARD_CUSTOM_GRAPHICS := $(LOCAL_PATH)/recovery/twrp-graphics.c
+TW_BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/u8500-common/recovery/twrp-graphics.c
 TW_BRIGHTNESS_PATH := /sys/class/backlight/panel/brightness
 TW_MAX_BRIGHTNESS := 255
 TW_NO_USB_STORAGE := true
