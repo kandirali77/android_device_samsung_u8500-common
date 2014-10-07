@@ -30,7 +30,7 @@
     <bool name="config_sf_slowBlur">false</bool>
 
     <!-- If this is true, the screen will fade off. --> 
-    <bool name="config_animateScreenLights">false</bool>
+    <bool name="config_animateScreenLights">true</bool>
 
     <!-- Control whether being in the desk dock (and powered) always
          keeps the screen on.  By default it stays on when plugged in to
